@@ -1,0 +1,11 @@
+To run the code,
+1. Type 'to_do.'
+2.  Write the statement or question.
+3. Repeat for every operation
+
+A few pointers:
+1. All data will be stored in the form of edge(Relation, type(Concept1, Instance), type(Concept2, instance)). For example, edge(capital, type(city, tokyo), type(country, japan)).
+2. When a new relation is being added, the clause in the triplet which is going to be the relation, needs to be explicity answered as relation when prompted by the system. It has been demonstrated in the screenshot.
+3. For every new relation fed into the database, it asks for the concepts of the concerned parties, as tokyo may be defined as capital_city in one relation, but as region in another. Should this be a problem, kindly let me know. It is an easily fixable feature. 
+
+I have also attached 2 screenshoots in theis repo as a demonstration.
